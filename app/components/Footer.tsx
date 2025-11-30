@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="text-white md:pt-40 pt-10 pb-0 bg-(--secondary-color) md:bg-[#00537E]">
+    <footer className="text-white md:pt-30 pt-10 pb-0 bg-(--secondary-color) md:bg-[#00537E]">
       {/* ======================= DESKTOP / TABLET ======================= */}
       <div className="max-w-6xl mx-auto px-4 space-y-10 hidden md:block">
         {/* TOPO: 3 COLUNAS */}

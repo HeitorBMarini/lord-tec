@@ -2,21 +2,30 @@ import { Phone, Mail } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
 export const contactInfo = {
+  phoneGroup: {
+    title: "Telefones",
+    items: [
+      {
+        label: "(11) 92101-2861",
+        href: "tel:+5511921012861",
+        icon: Phone, // Ícone do telefone fixo
+      },
+      {
+        label: "(11) 98888-7777",
+        href: "https://wa.me/5511988887777",
+        icon: FaWhatsapp, // Ícone do WhatsApp
+      },
+    ],
+  },
+
   email: {
-    label: "email@email.com",
-    href: "mailto:email@email.com",
+    label: "lord.refrig@outlook.com",
+    href: "mailto:lord.refrig@outlook.com",
     icon: Mail,
   },
 
-  phone: {
-    label: "(11) 99999-9999",
-    href: "tel:+5511999999999",
-    icon: Phone,
-  },
-
-  whatsapp: {
-    label: "(11) 98888-7777",
-    href: "https://wa.me/5511988887777",
-    icon: FaWhatsapp,
+  location: {
+    title: "Localização",
+    text: "Endereço\nRua Exemplo, 123 – Bairro\nCidade / UF",
   },
 };
