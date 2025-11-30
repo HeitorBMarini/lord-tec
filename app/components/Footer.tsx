@@ -5,10 +5,11 @@ import Link from "next/link";
 import { socialLinks } from "../data/socialLinks";
 import { Mail, Phone, Clock, MapPin } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import NewsletterForm from "./NewsletterForm";
 
 export default function Footer() {
   return (
-    <footer className="text-white md:pt-30 pt-10 pb-0 bg-(--secondary-color) md:bg-[#00537E]">
+    <footer className="text-white md:pt-35 pt-10 pb-0 bg-(--secondary-color) md:bg-[#00537E]">
       {/* ======================= DESKTOP / TABLET ======================= */}
       <div className="max-w-6xl mx-auto px-4 space-y-10 hidden md:block">
         {/* TOPO: 3 COLUNAS */}
@@ -26,11 +27,12 @@ export default function Footer() {
             </div>
 
             <p className="text-xs md:text-sm text-white/80 leading-relaxed max-w-sm">
-              Figma ipsum component variant main layer. Strikethrough background
-              clip comment rotate scrolling slice. Share layer ipsum community
-              inspect follower. Rectangle style distribute fill style invite
-              image share underline. Reesizing prototype scale line project
-              distribute.
+              A Lordtec Refrigeração e Climatização foi fundada em 2023 com o
+              propósito de transformar ambientes em espaços mais frescos,
+              agradáveis e confortáveis. Atuamos com foco na instalação,
+              manutenção e higienização de sistemas de ar-condicionado e
+              refrigeração, sempre priorizando a qualidade, a segurança e o
+              atendimento personalizado.
             </p>
           </div>
 
@@ -90,44 +92,16 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="space-y-3 w-full flex flex-col items-start">
-              <h4 className="font-semibold tracking-wide">Newsletter</h4>
-              <div className="h-0.5 w-10 bg-white/60" />
+            <NewsletterForm />
 
-              <form
-                onSubmit={(e) => e.preventDefault()}
-                className="flex w-full max-w-xs rounded-full overflow-hidden bg-white/20 backdrop-blur-sm"
-              >
-                <input
-                  type="email"
-                  placeholder="Digite seu email"
-                  className="
-                    flex-1 px-4 py-2 text-xs md:text-sm
-                    bg-white text-[#333]
-                    placeholder:text-[#555]
-                    border-0 outline-none
-                  "
-                />
-                <button
-                  type="submit"
-                  className="
-                    px-4 md:px-5 text-xs md:text-sm font-semibold
-                    bg-white/70 text-(--blue-color)
-                    hover:bg-white transition
-                  "
-                >
-                  ENVIAR
-                </button>
-              </form>
-            </div>
           </div>
         </div>
 
         {/* LINHA DIVISÓRIA */}
-        <div className="border-t border-white" />
+        <div className="border-t border-white border-2" />
 
         {/* REDES SOCIAIS + CONTATOS (MESMA LINHA) */}
-        <div className="flex flex-row items-center justify-between gap-4 pt-2 text-xs text-white/85">
+        <div className="flex flex-row items-center justify-between gap-4 pt1 text-xs text-white/85">
           {/* REDES SOCIAIS */}
           <div className="flex items-center gap-4">
             {socialLinks
@@ -137,7 +111,7 @@ export default function Footer() {
                   key={idx}
                   href={s.href}
                   target="_blank"
-                  className="h-9 w-9 rounded-full border border-white/25 flex items-center justify-center text-white/60 hover:text-white hover:border-white transition"
+                  className="h-9 w-9 rounded-full border border-white/25 flex items-center justify-center text-[#2791C9]/75 hover:text-white hover:border-white transition"
                 >
                   <s.icon size={16} />
                 </a>
@@ -197,7 +171,7 @@ export default function Footer() {
         </div>
 
         {/* Contato */}
-        <div className="space-y-5">
+        <div className="space-y-3">
           <h4 className="text-lg font-semibold">Contato</h4>
 
           <div className="space-y-4">

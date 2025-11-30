@@ -5,7 +5,7 @@ import SectionMVV from "./Mvv";
 
 export default function QuemSomosIn() {
   return (
-    <section className="relative w-full bg-[#fafafa] py-16 md:py-24 overflow-hidden">
+    <section className="relative w-full  py-16 md:py-24 overflow-hidden">
       {/* Gelo de fundo à esquerda (desktop only) */}
       <div className="hidden md:block absolute left-0 z-2 top-1/2 -translate-y-1/2 pointer-events-none">
         <Image

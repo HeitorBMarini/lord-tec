@@ -21,7 +21,7 @@ export function ContactIcons() {
           </div>
 
           {/* Título */}
-          <strong className="text-(--blue-color) text-sm">Email</strong>
+          <strong className="text-(--secondary-color) text-md font-bold">Email</strong>
 
           {/* Valor */}
           <a href={contactInfo.email.href} className="text-xs text-gray-600">
@@ -40,7 +40,7 @@ export function ContactIcons() {
           </div>
 
           {/* Título */}
-          <strong className="text-(--blue-color) text-sm">
+          <strong className="text-(--secondary-color) text-md font-bold">
             {contactInfo.phoneGroup.title}
           </strong>
 
@@ -73,7 +73,7 @@ export function ContactIcons() {
           </div>
 
           {/* Título */}
-          <strong className="text-(--blue-color) text-sm">
+          <strong className="text-(--secondary-color) text-md font-bold">
             Redes - Sociais
           </strong>
 
@@ -90,7 +90,7 @@ export function ContactIcons() {
                     target="_blank"
                     className="text-(--blue-color) hover:opacity-70"
                   >
-                    <Icon size={15} />
+                    <Icon size={18} />
                   </a>
                 );
               })}

@@ -303,19 +303,19 @@ export default function ContatoPage() {
                     <PhoneIcon size={26} />
                   </div>
                   <span className="text-xs text-gray-700 mt-2">Telefone</span>
-                                          {contactInfo.phoneGroup.items.map((item, index) => {
-                          const Icon = item.icon;
-                          return (
-                            <a
-                              key={index}
-                              href={item.href}
-                              className="flex items-center gap-2 text-sm font-medium hover:text-(--blue-color) transition-al mt-1"
-                            >
-                              <Icon size={16} className="opacity-80" />
-                              {item.label}
-                            </a>
-                          );
-                        })}
+                  {contactInfo.phoneGroup.items.map((item, index) => {
+                    const Icon = item.icon;
+                    return (
+                      <a
+                        key={index}
+                        href={item.href}
+                        className="flex items-center gap-2 text-sm font-medium hover:text-(--blue-color) transition-al mt-1"
+                      >
+                        <Icon size={16} className="opacity-80" />
+                        {item.label}
+                      </a>
+                    );
+                  })}
                 </div>
 
                 {/* EMAIL */}

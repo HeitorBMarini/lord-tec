@@ -2,7 +2,6 @@
 
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import PageHeader from "@/app/components/PageHeader";
@@ -43,11 +42,8 @@ export default async function ServiceDetailPage({
       />
 
       <main className="bg-white">
-        {/* CONTEÚDO PRINCIPAL + SIDEBAR */}
-        {/* CONTEÚDO PRINCIPAL + SIDEBAR */}
         <section
-          className="mx-auto max-w-6xl px-4 py-12 grid gap-10 
-    "
+          className="mx-auto max-w-6xl px-4 py-12 grid gap-10 "
         >
           {/* COLUNA PRINCIPAL */}
           <div className="space-y-8">
