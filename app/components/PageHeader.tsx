@@ -65,7 +65,7 @@ export default function PageHeader({
               className="
                 flex items-center gap-2 
                 text-xs md:text-sm 
-                text-[#222] md:text-(--white-color)/90
+                text-[#222] md:text-(--white-color)/90 justify-center
               "
             >
               {crumbs.map((c, i) => {
