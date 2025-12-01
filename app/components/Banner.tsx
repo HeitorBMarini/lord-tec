@@ -9,7 +9,7 @@ export default function HeroBanner() {
       {/* ===== IMAGEM DE FUNDO ===== */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/imgs/banner.webp"
+          src="/imgs/banner.png"
           alt="Família em ambiente confortável"
           fill
           priority
@@ -18,7 +18,6 @@ export default function HeroBanner() {
       </div>
 
       {/* ===== OVERLAY ===== */}
-      <div className="absolute inset-0 bg-linear-to-r from-[#003b46]/80 via-[#003b46]/30 to-transparent z-0"></div>
 
       {/* ===== RETÂNGULO (SOME NO MOBILE) ===== */}
       <Image
