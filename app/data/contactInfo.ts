@@ -8,12 +8,12 @@ export const contactInfo = {
       {
         label: "(11) 92101-2861",
         href: "tel:+5511921012861",
-        icon: Phone, // Ícone do telefone fixo
+        icon: Phone, 
       },
       {
         label: "(11) 98888-7777",
         href: "https://wa.me/5511988887777",
-        icon: FaWhatsapp, // Ícone do WhatsApp
+        icon: FaWhatsapp, 
       },
     ],
   },

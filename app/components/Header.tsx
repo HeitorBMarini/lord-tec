@@ -31,7 +31,7 @@ export default function Header() {
             mx-auto max-w-6xl 
             md:rounded-3xl rounded-none
 
-            bg-[#2791c9] md:bg-white/10
+            bg-(--secondary-color) md:bg-white/10
             md:backdrop-blur-md    
             md:border md:border-white/20
 

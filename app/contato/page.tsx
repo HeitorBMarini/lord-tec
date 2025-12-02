@@ -81,9 +81,8 @@ export default function ContatoPage() {
                 </span>
               </h2>
               <p className="mt-3 text-xs md:text-sm leading-relaxed text-[#1a2f37]/80">
-                Preencha o formulário ao lado para solicitar um orçamento sem
-                compromisso ou tirar suas dúvidas. Nossa equipe está à
-                disposição para oferecer o melhor atendimento.
+                Preencha o formulário abaixo e nossa equipe entrará em contato para avaliar sua necessidade de instalação ou manutenção. É rápido, sem compromisso e você recebe tudo de forma clara e personalizada!
+
               </p>
             </div>
 
