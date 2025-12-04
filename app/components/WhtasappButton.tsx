@@ -21,7 +21,7 @@ export default function WhatsappButton() {
       rel="noopener noreferrer"
       aria-label="Conversar no WhatsApp"
       className="
-        fixed bottom-20 right-5 z-50 
+        fixed md:bottom-20 bottom-40 right-5 z-50 
         flex items-center justify-center
         w-14 h-14 
         rounded-full 

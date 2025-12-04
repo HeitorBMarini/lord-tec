@@ -11,6 +11,7 @@ import Cta from "@/app/components/Cta";
 import RelatedServices from "@/app/components/RelatedServices";
 import Header from "@/app/components/Header";
 import ServiceSidebar from "@/app/components/ServiceSidebar";
+import FooterDefault from "@/app/components/FooterDefault";
 
 type RouteParams = { slug: string };
 
@@ -85,6 +86,7 @@ export default async function ServiceDetailPage({
         {/* SERVIÇOS RELACIONADOS — COMPONENTE NOVO */}
         <RelatedServices currentSlug={slug} />
       </main>
+      <FooterDefault/>
     </>
   );
 }

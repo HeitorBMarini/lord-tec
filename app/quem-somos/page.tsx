@@ -4,8 +4,7 @@ import PageHeader from "../components/PageHeader";
 import SectionContato from "../components/SectionContato";
 import Header from "../components/Header";
 import QuemSomosIn from "../components/QuemSomosIn";
-
-
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Quem Somos | Lord Tec",
@@ -16,17 +15,11 @@ export const metadata: Metadata = {
 export default function QuemSomosPage() {
   return (
     <>
-    <Header/>
-
+      <Header />
       <PageHeader title="Quem Somos" />
-
-
-        <QuemSomosIn />
-
-
-        <SectionContato />
-
-     
+      <QuemSomosIn />
+      <SectionContato />
+      <Footer />
     </>
   );
 }

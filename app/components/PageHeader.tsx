@@ -79,7 +79,7 @@ export default function PageHeader({
                         <BreadcrumbPage
                           className="
                             font-semibold
-                            text-[#333] md:text-white
+                            text-[#333] md:text-white hover:text(var(--primary-color))
                           "
                         >
                           {c.label}
@@ -106,7 +106,7 @@ export default function PageHeader({
                               </span>
                             )}
 
-                            <span className="text-[#333] md:text-white">
+                            <span className="">
                               {isFirst ? "Home" : c.label}
                             </span>
                           </Link>
@@ -118,7 +118,7 @@ export default function PageHeader({
                       <BreadcrumbSeparator>
                         <ChevronRight
                           size={14}
-                          className="text-[#444] md:text-(--white-color)"
+                          className="text-[#444] md:text-(--white-color) hover:text(var(--primary-color))"
                         />
                       </BreadcrumbSeparator>
                     )}

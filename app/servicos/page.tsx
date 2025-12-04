@@ -8,6 +8,7 @@ import { SERVICES } from "../data/service";
 import PageHeader from "../components/PageHeader";
 import Header from "../components/Header";
 import SectionContatoService from "../components/SectionContatoService";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Serviços | Lord Tec",
@@ -92,6 +93,7 @@ export default function ServicosPage() {
         </section>
 
         <SectionContatoService />
+        <Footer/>
       </main>
     </>
   );

@@ -10,6 +10,7 @@ import Header from "@/app/components/Header";
 import PageHeader from "@/app/components/PageHeader";
 import { contactInfo } from "../data/contactInfo";
 import { socialLinks } from "../data/socialLinks";
+import FooterDefault from "../components/FooterDefault";
 
 export default function ContatoPage() {
   const [loading, setLoading] = useState(false);
@@ -344,6 +345,7 @@ export default function ContatoPage() {
           </div>
         </section>
       </main>
+      <FooterDefault/>
     </>
   );
 }

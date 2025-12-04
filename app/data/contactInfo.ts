@@ -11,8 +11,8 @@ export const contactInfo = {
         icon: Phone, 
       },
       {
-        label: "(11) 98888-7777",
-        href: "https://wa.me/5511988887777",
+        label: "(11) 92101-2861",
+        href: "https://wa.me/551192101-2861",
         icon: FaWhatsapp, 
       },
     ],

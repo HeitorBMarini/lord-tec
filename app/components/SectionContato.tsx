@@ -28,7 +28,7 @@ export default function SectionContato() {
       <div className="relative mt-14 w-full flex justify-center">
 
         {/* Fundo azul atrás */}
-        <div className="absolute md:top-1/4 left-0 w-full md:h-[420px] md:bg-(--blue-color) bg-hidden z-0" />
+        <div className="absolute md:top-1/4 left-0 w-full md:h-[380px] md:bg-(--blue-color) bg-hidden z-0" />
 
         {/* Iframe por cima */}
         <iframe

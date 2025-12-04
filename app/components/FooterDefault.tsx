@@ -6,12 +6,11 @@ import { socialLinks } from "../data/socialLinks";
 import { Mail, Phone, Clock, MapPin } from "lucide-react";
 import { contactInfo } from "../data/contactInfo";
 
-
-export default function Footer() {
-    const phoneItems = contactInfo.phoneGroup.items;
+export default function FooterDefault() {
+  const phoneItems = contactInfo.phoneGroup.items;
 
   return (
-    <footer className="text-white md:pt-35 pt-10 pb-0 bg-(--secondary-color) md:bg-[#00537E]">
+    <footer className="text-white md:pt-10 pt-10 pb-0 bg-(--secondary-color) md:bg-[#00537E]">
       {/* ======================= DESKTOP / TABLET ======================= */}
       <div className="max-w-6xl mx-auto px-4 space-y-10 hidden md:block">
         {/* TOPO: 3 COLUNAS */}

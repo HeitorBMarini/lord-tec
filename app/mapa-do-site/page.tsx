@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import Header from "@/app/components/Header";
 import PageHeader from "@/app/components/PageHeader";
 import { SERVICES } from "@/app/data/service";
+import FooterDefault from "../components/FooterDefault";
 
 export const metadata: Metadata = {
   title: "Mapa do Site | Lord Tec",
@@ -90,6 +91,7 @@ export default function MapaDoSitePage() {
           </ul>
         </section>
       </main>
+      <FooterDefault/>
     </>
   );
 }
