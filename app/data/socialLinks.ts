@@ -4,7 +4,7 @@ export const socialLinks = [
  
   {
     name: "instagram",
-    href: "https://instagram.com/suaempresa",
+    href: "https://www.instagram.com/lordtec.refrigeracao/?igsh=dzdoYXJyNHQ3Z3Vv",
     icon: FaInstagram,
   },
  

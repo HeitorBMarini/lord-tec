@@ -11,10 +11,11 @@ export const contactInfo = {
         icon: Phone, 
       },
       {
-        label: "(11) 92101-2861",
-        href: "https://wa.me/551192101-2861",
-        icon: FaWhatsapp, 
-      },
+  label: "(11) 92101-2861",
+  href: "https://wa.me/5511921012861", 
+  icon: FaWhatsapp, 
+}
+
     ],
   },
 
@@ -26,6 +27,6 @@ export const contactInfo = {
 
   location: {
     title: "Localização",
-    text: "Endereço\nRua Exemplo, 123 – Bairro\nCidade / UF",
+    text: "Endereço\n R. João Alfredo, 431  – Cidade Industrial \nSão Paulo / SP",
   },
 };

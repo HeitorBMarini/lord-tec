@@ -86,9 +86,9 @@ export default function FooterDefault() {
                 <p>
                   Endereço
                   <br />
-                  Rua Exemplo, 123 – Bairro
+                 R. João Alfredo, 431  – Cidade Industrial 
                   <br />
-                  Cidade / UF
+                 São Paulo / SP
                 </p>
               </div>
             </div>
