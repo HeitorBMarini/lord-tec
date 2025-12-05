@@ -64,7 +64,7 @@ export default function ContatoPage() {
       />
 
       <main className="bg-white">
-        <section className="w-full py-10 md:py-16">
+        <section className="w-full pt-10 md:pt-10">
           <Image
             src="/imgs/gelo-right.webp"
             alt="Gelo decorativo"
@@ -337,10 +337,10 @@ export default function ContatoPage() {
           {/* IFRAME ABAIXO */}
           <div className="md:mt-40 md:block hidden mt-10 overflow-hidden rounded-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m30..."
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7309.295879989831!2d-46.70623428694393!3d-23.65277601459352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce504e12b06239%3A0x6a25e7fca6684d35!2sR.%20Jo%C3%A3o%20Alfredo%2C%20387-2147483647%20-%20Santo%20Amaro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004747-001!5e0!3m2!1sen!2sbr!4v1764967763253!5m2!1sen!2sbr"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="w-full h-full rounded-lg border-0"
+              className="w-full h-80 rounded-lg border-0"
             ></iframe>
           </div>
         </section>

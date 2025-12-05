@@ -6,9 +6,8 @@ import { socialLinks } from "../data/socialLinks";
 import { Mail, Phone, Clock, MapPin } from "lucide-react";
 import { contactInfo } from "../data/contactInfo";
 
-
 export default function Footer() {
-    const phoneItems = contactInfo.phoneGroup.items;
+  const phoneItems = contactInfo.phoneGroup.items;
 
   return (
     <footer className="text-white md:pt-35 pt-10 pb-0 bg-(--secondary-color) md:bg-[#00537E]">
@@ -84,12 +83,11 @@ export default function Footer() {
 
               <div className="flex items-start gap-2 text-sm text-white/85">
                 <MapPin size={16} className="mt-0.5" />
-                <p>
-                  Endereço
-                  <br />
-                 R. João Alfredo, 431  – Cidade Industrial 
-                  <br />
-                 São Paulo / SP
+
+                <p className="whitespace-pre-line">
+                  {contactInfo.location.title}
+                  {"\n"}
+                  {contactInfo.location.text}
                 </p>
               </div>
             </div>

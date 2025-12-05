@@ -27,6 +27,6 @@ export const contactInfo = {
 
   location: {
     title: "Localização",
-    text: "Endereço\n R. João Alfredo, 431  – Cidade Industrial \nSão Paulo / SP",
+    text: "Endereço\n R. João Alfredo, 431  – Santo Amaro \nSão Paulo / SP",
   },
 };

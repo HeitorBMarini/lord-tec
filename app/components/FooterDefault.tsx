@@ -83,12 +83,11 @@ export default function FooterDefault() {
 
               <div className="flex items-start gap-2 text-sm text-white/85">
                 <MapPin size={16} className="mt-0.5" />
-                <p>
-                  Endereço
-                  <br />
-                 R. João Alfredo, 431  – Cidade Industrial 
-                  <br />
-                 São Paulo / SP
+
+                <p className="whitespace-pre-line">
+                  {contactInfo.location.title}
+                  {"\n"}
+                  {contactInfo.location.text}
                 </p>
               </div>
             </div>
