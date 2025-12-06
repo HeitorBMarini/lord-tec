@@ -18,7 +18,7 @@ export const SERVICES: ServiceItem[] = [
     slug: "manutencao-ar-condicionado",
     label: "Manutenção de ar-condicionado",
     img: "/imgs/servicos/manutencao-ar.webp",
-    desc: ` Problemas no ar-condicionado ACJ(ar-condicionado de Janela), split e piso teto, como falhas no resfriamento ou ruídos, exigem diagnóstico técnico especializado. Na São Paulo Capital, realizamos conserto e revisão completa de sistemas Cassete (ACJ(ar-condicionado de Janela), split e piso teto), verificando componentes elétricos, gás refrigerante e sensores de temperatura. Restauramos o funcionamento ideal do equipamento para ambientes comerciais e corporativos.`,
+    desc: ` Problemas no ar-condicionado ACJ(ar-condicionado de Janela), split e piso teto, como falhas no resfriamento ou ruídos, exigem diagnóstico técnico especializado. Na São Paulo Capital, realizamos conserto e revisão completa de sistemas Cassete (ACJ - ar-condicionado de Janela, split e piso teto), verificando componentes elétricos, gás refrigerante e sensores de temperatura. Restauramos o funcionamento ideal do equipamento para ambientes comerciais e corporativos.`,
   },
   {
     slug: "instalacao-camara-fria",
