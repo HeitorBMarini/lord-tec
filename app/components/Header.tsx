@@ -73,21 +73,35 @@ export default function Header() {
                 onMouseEnter={() => setDropdownOpen(true)}
                 onMouseLeave={() => setDropdownOpen(false)}
               >
-                <DropdownMenuTrigger
-                  asChild
-                >
-                  <Link
-                    href="/servicos"
-                    className="
-                      cursor-pointer
-                      transition-all
-                      hover:bg-(--primary-color)
-                      md:p-2 hover:rounded-2xl
-                      outline-none
-                    "
+                <DropdownMenuTrigger asChild>
+                  <div
+                    className="relative"
+                    onMouseEnter={() => setDropdownOpen(true)}
                   >
-                    SERVIÇOS
-                  </Link>
+                    {/* BOTÃO DO DROPDOWN (RADIX) */}
+                    <button
+                      type="button"
+                      className="
+        cursor-pointer
+        transition-all
+        hover:bg-(--primary-color)
+        md:p-2 hover:rounded-2xl
+        outline-none
+        text-white
+        bg-transparent
+      "
+                    >
+                      SERVIÇOS
+                    </button>
+
+                    {/* LINK REAL PARA NAVEGAÇÃO */}
+                    <Link
+                      href="/servicos"
+                      className="absolute inset-0"
+                      aria-label="Ir para página de serviços"
+                      onClick={() => setDropdownOpen(false)}
+                    />
+                  </div>
                 </DropdownMenuTrigger>
 
                 <DropdownMenuContent
