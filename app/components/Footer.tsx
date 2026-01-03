@@ -41,7 +41,7 @@ export default function Footer() {
           <div className="space-y-4 flex flex-col items-start">
             <h4 className="font-semibold tracking-wide">Navegação</h4>
             <div className="h-0.5 w-10 bg-white/60" />
-            <nav className="flex flex-col gap-2 text-sm">
+            <nav className="flex flex-col gap-3 text-sm">
               <Link
                 href="/"
                 className="hover:text-(--blue-color) transition-all"
